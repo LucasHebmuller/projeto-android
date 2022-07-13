@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'IDroid';
+    src: url('._idroid.otf')format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+*{
+    margin: 0%;
+}
+
+
+
+body{
+    background-color: rgb(132, 225, 173);
+}
+
+
+
+header{
+    font-family: 'Indie Flower','Times New Roman', Times, serif;
+    color: white;
+    background-image: linear-gradient(360deg, rgb(26, 93, 56), rgb(66, 148, 63));
+    background-attachment: local;
+}
+header > h1{
+    text-align: center;
+    padding: 40px;
+   
+}
+header > p{
+    text-align: center;
+    font-size: large;
+}
+
+
+
+nav{
+    font-family: 'Indie Flower','Times New Roman', Times, serif;
+    background-color: rgb(26, 93, 56);
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+
+}
+nav> span.menu {
+    padding: 10px;
+}
+span.menu:hover{
+    background-color: lightgreen;
+}
+
+
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    max-width: 800px;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+main > h1{
+    font-family: 'IDroid',Arial, Helvetica, sans-serif;
+    color: green;
+}
+main > p{
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 30px;
+}
+main > h2{
+    font-family: 'IDroid',Arial, Helvetica, sans-serif;
+    color: green;
+    background-color: lightgreen;
+}
+span.conteudo{
+    color: rgb(39, 92, 39);
+}
+a{
+    text-decoration: none;
+}
+
+
+img{
+    width: 100%;
+}
+img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
+article{
+    background-color: rgb(26, 92, 56);
+    margin: 0px -10px 0px -10px;
+}
+article > p{
+    text-align: center;
+}
+
+
+
+aside{
+   background-color: rgb(197, 235, 214);
+   border-radius: 15px;
+   padding: 5px;
+}
+aside > h3{
+    background-color: rgb(47, 168, 102);
+    color: white;
+}
+aside > p{
+    text-indent: 30px;
+    text-align: justify;
+}
+aside > ul{
+    columns: 2;
+}
+
+
+
+footer{
+    background-color: rgb(26, 92, 56);
+    color: white;
+    padding: 1px;
+}
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
